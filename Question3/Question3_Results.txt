@@ -1,0 +1,91 @@
+
+Question 3: Wine Quality Classification
+Total observations: 4898
+Number of features: 11
+
+Feature standardization completed.
+
+Class Distributions:
+Class	Count	Prior Probability
+3	20	0.004083
+4	163	0.033279
+5	1457	0.297468
+6	2198	0.448755
+7	880	0.179665
+8	175	0.035729
+9	5	0.001021
+
+Wine Quality Gaussian Models:
+Class 3: Count = 20, Prior = 0.004083, Lambda = 0.034738
+Class 4: Count = 163, Prior = 0.033279, Lambda = 0.013628
+Class 5: Count = 1457, Prior = 0.297468, Lambda = 0.009926
+Class 6: Count = 2198, Prior = 0.448755, Lambda = 0.009374
+Class 7: Count = 880, Prior = 0.179665, Lambda = 0.007710
+Class 8: Count = 175, Prior = 0.035729, Lambda = 0.008859
+Class 9: Count = 5, Prior = 0.001021, Lambda = 0.012754
+
+Wine Quality Classification Results:
+
+Confusion Matrix:
+Rows = Actual, Columns = Predicted
+    Actual         3         4         5         6         7         8         9
+         3         8         2         3         4         2         1         0
+         4         3        39        70        39        11         1         0
+         5        10        48       805       435       158         1         0
+         6         2        28       461       909       782        16         0
+         7         0         2        27       193       647        11         0
+         8         0         0         3        47       110        15         0
+         9         0         0         0         0         0         0         5
+
+Total Observations: 4898
+Correct Classification: 2428
+Incorrect Classification: 2470
+Empirical Training Error: 0.504287
+Training Accuracy: 49.57%
+
+Question 3: Human Activity Recognition
+Total observations: 10299
+Number of features: 561
+
+Feature standardization completed.
+
+Class Distributions:
+Class	Count	Prior Probability
+1	1722	0.167201
+2	1544	0.149917
+3	1406	0.136518
+4	1777	0.172541
+5	1906	0.185067
+6	1944	0.188756
+
+HAR Gaussian Models:
+Class 1: Count = 1722, Prior = 0.167201, Lambda = 0.006130
+Class 2: Count = 1544, Prior = 0.149917, Lambda = 0.005406
+Class 3: Count = 1406, Prior = 0.136518, Lambda = 0.010152
+Class 4: Count = 1777, Prior = 0.172541, Lambda = 0.003168
+Class 5: Count = 1906, Prior = 0.185067, Lambda = 0.002687
+Class 6: Count = 1944, Prior = 0.188756, Lambda = 0.004135
+
+Human Activity Recognition Classification Results:
+
+Confusion Matrix:
+Rows = Actual, Columns = Predicted
+    Actual         1         2         3         4         5         6
+         1      1719         3         0         0         0         0
+         2         0      1544         0         0         0         0
+         3         2       106      1298         0         0         0
+         4         0         0         0      1263       514         0
+         5         0         0         0         0      1906         0
+         6         0         0         0         0         0      1944
+
+Total Observations: 10299
+Correct Classification: 9674
+Incorrect Classification: 625
+Empirical Training Error: 0.060686
+Training Accuracy: 93.93%
+Visualization data exported to wine_visualization.csv
+Visualization data exported to har_visualization.csv
+Generated Gnuplot script: Question3_Wine_2D.gp
+Generated Gnuplot script: Question3_HAR_2D.gp
+Generated Gnuplot script: Question3_Wine_3D.gp
+Generated Gnuplot script: Question3_HAR_3D.gp

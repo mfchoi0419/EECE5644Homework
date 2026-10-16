@@ -1,0 +1,64 @@
+Question 2: Gaussian Mixture Classification
+Total observations: 10000
+Class 1: 2949 observations
+Class 2: 3037 observations
+Class 3: 4014 observations
+
+MAP Classification Results:
+
+MAP Confusion Matrix (Counts):
+Rows = Predicted, Columns = True
+    2319     238     382
+     243    2393     358
+     387     406    3274
+
+MAP Confusion Matrix (Probabilities):
+    0.7864    0.0784    0.0952
+    0.0824    0.7879    0.0892
+    0.1312    0.1337    0.8156
+
+Correct classifications: 7986
+Incorrect classifications: 2014
+Empirical MAP error probability: 0.2014
+
+ERM Lambda_10 Classification Results:
+
+ERM Lambda_10 Confusion Matrix(Counts):
+Rows = Predicted, Columns = True
+    1462      83      50
+     107    1482      47
+    1380    1472    3917
+
+ERM Lambda_10 Confusion Matrix (Probabilities):
+    0.4958    0.0273    0.0125
+    0.0363    0.4880    0.0117
+    0.4680    0.4847    0.9758
+
+ERM Lambda_10 Results:
+Correct classifications: 6861
+Incorrect classifications: 3139
+Empirical error probability: 0.3139
+Empirical expected risk (Lambda_10): 0.4012
+
+ERM Lambda_100 Classification Results:
+
+ERM Lambda_100 Confusion Matrix (Counts):
+Rows = Predicted, Columns = True
+     448      13       1
+      14     427       1
+    2487    2597    4012
+
+ERM Lambda_100 Confusion Matrix (Probabilities):
+    0.1519    0.0043    0.0002
+    0.0047    0.1406    0.0002
+    0.8433    0.8551    0.9995
+
+ERM Lambda_100 Results:
+Correct classifications: 4887
+Incorrect classifications: 5113
+Empirical error probability: 0.5113
+Empirical expected risk (Lambda_100): 0.5311
+
+MAP plotting data exported successfully.
+
+ERM plotting data exported successfully.

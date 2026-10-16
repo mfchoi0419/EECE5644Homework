@@ -1,0 +1,130 @@
+Dataset saved to Question1_Dataset.csv
+
+Question 1: Gaussian Classification
+Total observations: 10000
+Class 0: 3479
+Class 1: 6521
+
+Gaussian log-likelihood:
+True label: 0
+Log p(x|0): -4.73268
+Log p(x|1): -7.9745
+Log likelihood ratio: -3.24182
+Predicted label: 0
+Actual label: 0
+
+Minimum Probability of Error Classifier:
+Threshold gamma: 0.538462
+
+Confusion Matrix Counts:
+TP: 6342
+TN: 3386
+FP: 93
+FN: 179
+
+Performance Metrics:
+TPR: 0.97255
+FPR: 0.0267318
+FNR: 0.0274498
+Error Rate: 0.0272
+
+Empirically Optimal Threshold:
+Log gamma: -1.01085
+Gamma: 0.363909
+TPR: 0.978071
+FPR: 0.0333429
+FNR: 0.0219292
+Minimum empirical error: 0.0259
+ROC data saved to Question1_ROC.csv
+Gnuplot script created.
+
+Question 1 - Part B: Naive Bayes
+Threshold gamma: 0.538462
+
+Confusion Matrix Counts:
+TP: 6308
+TN: 3370
+FP: 109
+FN: 213
+
+Performance Metrics:
+TPR: 0.967336
+FPR: 0.0313308
+FNR: 0.0326637
+Error Rate: 0.0322
+
+Empirically Optimal Threshold:
+Log gamma: -0.725825
+Gamma: 0.483925
+TPR: 0.96979
+FPR: 0.0339178
+FNR: 0.0302101
+Minimum empirical error: 0.0315
+ROC data saved to Question1_NB_ROC.csv
+Gnuplot script created.
+
+Question 1 - Part C: Fisher LDA
+
+Estimated Class 0 covariance:
+0.522476 -0.124602 0.068961 0.0063966 
+-0.124602 0.243676 -0.120417 0.00173358 
+0.068961 -0.120417 0.240051 0.00269163 
+0.0063966 0.00173358 0.00269163 0.503903 
+
+Estimated Class 1 covariance:
+0.998016 0.286593 -0.185621 -0.0134084 
+0.286593 2.00005 0.344669 -0.0304195 
+-0.185621 0.344669 1.01563 0.0238653 
+-0.0134084 -0.0304195 0.0238653 3.00307 
+
+Estimated Class 0 mean:
+-0.494177 -0.505909 -0.498738 -0.493738 
+
+Estimated Class 1 mean:
+1.01036 1.02416 0.995734 0.967045 
+
+Within-class scatter matrix:
+0.760246 0.0809955 -0.0583298 -0.00350592 
+0.0809955 1.12186 0.112126 -0.014343 
+-0.0583298 0.112126 0.627839 0.0132785 
+-0.00350592 -0.014343 0.0132785 1.75349 
+
+Between-class scatter matrix:
+0.565908 0.57551 0.562122 0.54945 
+0.57551 0.585275 0.57166 0.558773 
+0.562122 0.57166 0.558361 0.545775 
+0.54945 0.558773 0.545775 0.533472 
+
+Fisher LDA Projection Vector:
+2.06 0.988063 2.37777 0.827267 
+
+First 5 Fisher LDA projections:
+Label: 0 | Projection: -2.61087
+Label: 1 | Projection: -0.189704
+Label: 1 | Projection: 12.4889
+Label: 1 | Projection: 4.46673
+Label: 0 | Projection: -2.69242
+
+Fisher LDA Evaluation (tau = 0):
+Threshold tau: 0
+
+Confusion Matrix Counts:
+TP: 6188
+TN: 3278
+FP: 201
+FN: 333
+
+Performance Metrics:
+TPR: 0.948934
+FPR: 0.0577752
+FNR: 0.0510658
+Error Rate: 0.0534
+
+Fisher LDA Empirically Optimal Threshold:
+Tau: 0.346363
+TPR: 0.94142
+FPR: 0.0388043
+FNR: 0.05858
+Minimum empirical error: 0.0517
+ROC data saved to Question1_LDA_ROC.csv
+Fisher LDA Gnuplot script created.
