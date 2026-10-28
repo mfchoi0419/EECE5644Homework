@@ -1,0 +1,19 @@
+# macOS files
+.DS_Store
+__MACOSX/
+
+# Compiled executables
+HW1P1
+HW1P2
+HW1P3
+
+# Build artifacts
+*.o
+*.out
+
+# Archive files
+*.zip
+
+# Generated visualization datasets
+wine_visualization.csv
+har_visualization.csv
